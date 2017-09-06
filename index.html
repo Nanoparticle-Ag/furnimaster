@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FurniMaster</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+</head>
+
+<body>
+
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                            <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="exampleInputPassword3">Password</label>
+                            <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox"> Remember me
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary btn-sm">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-inverse navbar-toggleable-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="41"></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#"><span></span> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span></span> Catalog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span></span> Materials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html"><span></span> Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span></span> Contacts</a></li>
+                </ul>
+                <span class="navbar-text">
+                    <a id="loginButton">
+                        <span class="fa fa-sign-in"></span> Login
+                    </a>
+                </span>
+            </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-2 align-self-center">
+                    <img src="img/logo.png" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-10">
+                    <h1>FurniMaster</h1>
+                    <p>We take inspiration from the World's best interiors,<br>and create a unique furniture designs.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-8 offset-2">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid carousel-image"
+                                 src="img/01.jpg" alt="Uthappizza">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid carousel-image"
+                                 src="img/02.jpg" alt="Uthappizza">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid carousel-image"
+                                 src="img/03.jpg" alt="Uthappizza">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid carousel-image"
+                                 src="img/04.jpg" alt="Uthappizza">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid carousel-image"
+                                 src="img/05.jpg" alt="Uthappizza">
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                        <li data-target="#mycarousel" data-slide-to="3"></li>
+                        <li data-target="#mycarousel" data-slide-to="4"></li>
+                    </ol>
+                    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content">
+            <div class="col-sm-2 col-md-2">
+                <h3>Our Goals</h3>
+            </div>
+            <div class="col-sm col-md">
+                <div class="media">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rutrum nisi eu vulputate consequat. Integer nec dolor metus. Morbi ac porta leo, nec efficitur lorem. Morbi sed lacus libero. Integer non urna nec felis feugiat varius ac quis nunc. Etiam tempor felis at ante malesuada, quis dapibus mi vehicula. Pellentesque elementum eget nulla scelerisque suscipit. Duis gravida felis quis urna porttitor, nec fringilla eros semper. Donec ipsum nisi, tincidunt bibendum maximus a, hendrerit vitae quam. Vestibulum vel lacus dignissim, viverra augue fringilla, sodales felis. Nullam luctus laoreet accumsan. Etiam non tellus facilisis, feugiat arcu at, rhoncus elit. Proin cursus odio eget tincidunt facilisis. Quisque dapibus dolor tellus, id pellentesque mauris lacinia eget. Maecenas nec ornare massa.<br><br>
+
+                        Curabitur dui augue, ullamcorper sit amet dictum vel, feugiat nec risus. Donec at rhoncus risus. Integer feugiat malesuada mi, ut sagittis dui porta id. Integer posuere urna elit. Curabitur nec lacus venenatis, vehicula enim sit amet, pellentesque enim. Nam convallis odio ante. Donec blandit, nisi sit amet aliquet ultrices, ante erat consequat felis, non rhoncus dui est at purus. Donec ac commodo tellus. Integer vel molestie leo. Ut metus risus, semper nec sapien eget, laoreet euismod felis. Nullam luctus mattis est, sit amet maximus diam aliquet non.<br><br>
+
+                        Pellentesque sagittis ut libero ut aliquet. Donec id enim non quam facilisis vehicula sit amet gravida purus. Donec posuere sapien non semper imperdiet. Quisque non blandit felis, pretium ullamcorper arcu. Nam suscipit fringilla mi, non vehicula tortor facilisis nec. Vivamus justo odio, luctus sit amet finibus quis, faucibus tempus neque. In ut dui enim. Praesent gravida sapien felis, at mollis eros ultricies id. Quisque nec ex luctus elit eleifend dignissim non et dui. In luctus ut dui et pretium. Aenean ut ligula nunc. Sed suscipit urna dui, ut interdum ante gravida id. Curabitur varius ante nulla, et condimentum lorem posuere at. Sed faucibus felis sit amet ante faucibus, ac ultrices dolor lacinia. Cras facilisis, lectus eu auctor semper, ex sem mollis leo, vel pharetra neque nibh id lectus.<br><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content">
+            <div class="col-sm-2 col-md-2">
+                <h3>Professional Masters</h3>
+            </div>
+            <div class="col-sm col-md">
+                <div class="media">
+                    <p>
+                        Donec molestie, mauris et semper viverra, mi ex fermentum magna, id mollis mi velit sed massa. Nullam in est leo. Nullam ac quam lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In viverra fermentum sem eget facilisis. Cras sed libero non lectus fringilla rutrum ac et tellus. Maecenas ultrices, felis consequat molestie euismod, dui tortor blandit orci, vel dignissim nisl ligula at sapien. Cras eget purus sed leo ornare sagittis sit amet et arcu. Curabitur vel ante vel nunc vehicula eleifend. Cras tempor elit ac fermentum sodales. Praesent vel ante nec erat laoreet iaculis.<br><br>
+
+                        Suspendisse potenti. Etiam viverra justo sed dolor faucibus, et feugiat diam facilisis. Nam odio felis, maximus id metus a, fermentum facilisis ligula. Pellentesque id ipsum volutpat, malesuada ligula ut, dapibus metus. Duis et accumsan diam. Fusce euismod turpis orci. Nulla facilisi. Aliquam ex metus, dictum eget nisl maximus, pellentesque porta nibh. Etiam dictum turpis vitae ligula fringilla pulvinar. Duis placerat euismod purus, id egestas lectus tristique eget. Vestibulum ornare arcu diam, vitae placerat ligula ultricies ac. Morbi odio urna, rutrum iaculis nunc quis, volutpat accumsan nunc. Donec tincidunt odio eget diam tempor rutrum. Etiam nec velit quis neque imperdiet pellentesque.<br><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--<div class="row row-content align-items-center">
+            <div class="col-sm-4 col-md-3">
+                <h3>This Month's Promotions</h3>
+            </div>
+            <div class="col-sm col-md">
+                <div class="media">
+                    <div class="media-body">
+                        <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                        <p class="hidden-xs-down">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                    </div>
+                    <img class="d-flex ml-3 img-thumbnail align-self-center"
+                         src="img/buffet.png" alt="Buffet">
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4 push-sm-8 col-md-3 push-md-9">
+                <h3>Meet our Culinary Specialists</h3>
+            </div>
+            <div class="col-sm pull-sm-4 col-md pull-md-3">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                         src="img/alberto.png" alt="Alberto Somayya">
+                    <div class="media-body">
+                        <h2 class="mt-0">Alberto Somayya</h2>
+                        <h4>Executive Chef</h4>
+                        <p class="hidden-xs-down">Award winning three-star Michelin chef with wide
+                            International experience having worked closely with
+                            whos-who in the culinary world, he specializes in
+                            creating mouthwatering Indo-Italian fusion experiences.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-5 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="custom-link">Home</a></li>
+                        <li><a href="#" class="custom-link">Catalog</a></li>
+                        <li><a href="#" class="custom-link">Material</a></li>
+                        <li><a href="gallery.html" class="custom-link">Gallery</a></li>
+                        <li><a href="#" class="custom-link">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+                        121, Clear Water Bay Road<br>
+                        Clear Water Bay, Kowloon<br>
+                        HONG KONG<br>
+                        <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+                        <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
+                        <i class="fa fa-envelope fa-lg"></i>:
+                        <a href="mailto:furnimaster@furni.net" class="custom-link">furnimaster@furni.net</a>
+                    </address>
+                </div>
+                <div class="col col-sm-4">
+                    <div style="text-align:center">
+                        <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">
+                <div class="col-auto">
+                    <p>© Copyright 2017 FurniMaster</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <!-- build:css css/main.css -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/tether/dist/js/tether.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>
